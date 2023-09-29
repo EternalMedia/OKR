@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include okr *.css
+recursive-include okr *.csv
+recursive-include okr *.html
+recursive-include okr *.ico
+recursive-include okr *.js
+recursive-include okr *.json
+recursive-include okr *.md
+recursive-include okr *.png
+recursive-include okr *.py
+recursive-include okr *.svg
+recursive-include okr *.txt
+recursive-exclude okr *.pyc
